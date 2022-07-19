@@ -21,7 +21,6 @@ const Hero = (props) => (
           new Technologies to Build Scalable Applications. I'm Currently
           Exploring the World of Web Technologies... 🚀
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>

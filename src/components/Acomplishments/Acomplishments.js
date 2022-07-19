@@ -1,18 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 10, text: "Open Source Projects" },
+  { number: 2, text: "Awards" },
+  { number: 100, text: "Hours of Work" },
+  { number: 9, text: "Happy Clients" },
 ];
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Achievements</SectionTitle>
+    <SectionTitle>Achievements ✨</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -21,7 +25,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider />
   </Section>
 );
 
