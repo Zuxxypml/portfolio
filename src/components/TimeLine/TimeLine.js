@@ -65,6 +65,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider divider colorAlt />
       <SectionTitle>About Me 🥴</SectionTitle>
       <SectionText>
         I can't say I have a monetary reason for choosing Technology as a Career
@@ -141,7 +142,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
