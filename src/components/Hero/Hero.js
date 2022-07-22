@@ -11,13 +11,8 @@ import {
   SkillsContainer,
   SkillsWrapper,
 } from "./HeroStyles";
-import { saveAs } from "file-saver";
 
 const Hero = (props) => {
-  const saveFile = () => {
-    saveAs("../../cv/Resume-Adebisi-Akinade.pdf", "AdebisiAkinadeCV.pdf");
-  };
-
   return (
     <Section row nopadding>
       <LeftSection>
@@ -38,7 +33,12 @@ const Hero = (props) => {
           new Technologies to Build Scalable Applications. I'm Currently
           Exploring the World of Web Technologies... 🚀
         </SectionText>
-        <Button onClick={saveFile}>Download CV</Button>
+        <Button
+          href="https://github.com/Zuxxypml/cv/raw/main/Resume-Adebisi-Akinade.pdf"
+          download
+        >
+          Download CV
+        </Button>
       </LeftSection>
     </Section>
   );

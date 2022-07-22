@@ -8,9 +8,9 @@ const Button = (props) => (
     <ButtonFront
       alt={props.alt}
       onClick={props.onClick}
-      href={props.href}
       disabled={props.disabled}
-      download={props.download}
+      href={props.href}
+      download
     >
       {props.children}
     </ButtonFront>
