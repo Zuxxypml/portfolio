@@ -201,7 +201,7 @@ export const ButtonBack = styled.div`
   }
 `;
 
-export const ButtonFront = styled.a`
+export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
   color: #fff;

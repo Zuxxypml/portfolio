@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Section,
   SectionText,
@@ -12,9 +11,14 @@ import {
   SkillsContainer,
   SkillsWrapper,
 } from "./HeroStyles";
+import { saveAs } from "file-saver";
 
-const Hero = (props) => (
-  <>
+const Hero = (props) => {
+  const saveFile = () => {
+    saveAs("../../cv/Resume-Adebisi-Akinade.pdf", "AdebisiAkinadeCV.pdf");
+  };
+
+  return (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
@@ -34,12 +38,10 @@ const Hero = (props) => (
           new Technologies to Build Scalable Applications. I'm Currently
           Exploring the World of Web Technologies... 🚀
         </SectionText>
-        <Button href="../../../public/cv/Resume-Adebisi-Akinade.pdf" download>
-          Download CV
-        </Button>
+        <Button onClick={saveFile}>Download CV</Button>
       </LeftSection>
     </Section>
-  </>
-);
+  );
+};
 
 export default Hero;
