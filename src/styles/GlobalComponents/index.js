@@ -31,8 +31,8 @@ export const SectionTitle = styled.h2`
   width: max-content;
   max-width: 100%;
 
-  margin-bottom: 16px;
-  padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+  margin-bottom: 10px;
+  padding: ${(props) => (props.main ? "50px 0 16px" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "56px" : "48px")};
@@ -57,7 +57,7 @@ export const SectionText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
+  padding-bottom: 2.6rem;
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -201,7 +201,7 @@ export const ButtonBack = styled.div`
   }
 `;
 
-export const ButtonFront = styled.button`
+export const ButtonFront = styled.a`
   border: none;
   border-radius: 50px;
   color: #fff;
