@@ -34,7 +34,7 @@ const Hero = (props) => {
           Exploring the World of Web Technologies... 🚀
         </SectionText>
         <Button
-          href="https://github.com/Zuxxypml/cv/raw/main/Resume-Adebisi-Akinade.pdf"
+          href="https://github.com/Zuxxypml/cv/raw/main/AKINADE%20ADEBISI.pdf"
           download
         >
           Download CV
