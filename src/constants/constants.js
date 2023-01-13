@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/1.jpg",
     tags: ["Bootstrap", "Javascript", "Express", "Node"],
     source: "https://github.com/Zuxxypml/Zuxxy-mart",
-    visit: "https://zuxxy-mart.herokuapp.com/",
+    visit: "https://zuxxy-mart.onrender.com",
     id: 0,
   },
   {
@@ -19,26 +19,94 @@ export const projects = [
     visit: "https://simon-game-by-zuxxy.netlify.app/",
     id: 1,
   },
-  // {
-  //   title: "WebRTC App",
-  //   description:
-  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //   image: "/images/3.jpg",
-  //   tags: ["React", "WebRTC"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 2,
-  // },
-  // {
-  //   title: "Unichat",
-  //   description:
-  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: "/images/4.jpg",
-  //   tags: ["React", "ChatEngine", "Firebase"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 3,
-  // },
+  {
+    title: "Weather Application",
+    description:
+      "A Weather Application that uses Open Weather Map API. Check the Weather of your Country :)",
+    image: "/images/6.jpg",
+    tags: ["HTML", "CSS", "Ajax", "Javascript", "API(Open Weather Map)"],
+    source: "https://github.com/Zuxxypml/Weather-Checker-App",
+    visit: "https://weather-checker-app-by-zuxxy.netlify.app/",
+    id: 2,
+  },
+  {
+    title: "Workout Buddy",
+    description:
+      "A Workout Tracking Web Application. Track your daily workout reps lol :)",
+    image: "/images/3.png",
+    tags: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "JWT",
+      "bcryptjs",
+    ],
+    source: "https://github.com/Zuxxypml/workout-buddy-v2-frontend",
+    visit: "https://workout-buddy-v2-frontend.vercel.app/auth",
+    id: 3,
+  },
+  {
+    title: "Codehub",
+    description:
+      "A storage web app to save your project files, api keys, and other secret credentials:)",
+    image: "/images/4.jpg",
+    tags: [
+      "JavaScript",
+      "EJS",
+      "CSS",
+      "Bootstrap",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Passport.js",
+      "bcryptjs",
+    ],
+    source: "https://github.com/Zuxxypml/codehub",
+    visit: "https://codehub-w036.onrender.com",
+    id: 4,
+  },
+  {
+    title: "Deem Exchange",
+    description:
+      "A crypto Exchange Web Application. Realtime crypto value, good rates, fast payment. (Still in Development but not Maintained. Feel free to drop a pull req)   :)",
+    image: "/images/5.png",
+    tags: [
+      "JavaScript",
+      "EJS",
+      "CSS",
+      "Bootstrap",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Passport.js",
+      "bcryptjs",
+    ],
+    source: "https://github.com/Zuxxypml/Deem",
+    visit: "https://deem-exchange.onrender.com/",
+    id: 5,
+  },
+  {
+    title: "Kaizen Brand",
+    description:
+      "Kaizen Clothing Brand. Get Kaizen Collections, Merchs and Clothings from Kaizen Web Application.   :)",
+    image: "/images/6.png",
+    tags: [
+      "JavaScript",
+      "React",
+      "Styled Components",
+      "MUI",
+      "Node.js",
+      "Express",
+      "Paystack",
+      "Nodemailer",
+      "Image DB",
+    ],
+    source: "https://github.com/Zuxxypml/kaizen-brand-v2.git",
+    visit: "https://kaizenbrand.shop/",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [

@@ -99,12 +99,14 @@ export const ExternalLinks = styled.a`
 
 export const TagList = styled.ul`
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
   padding: 2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
   }
 `;
 export const Tag = styled.li`
